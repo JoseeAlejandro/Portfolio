@@ -1,23 +1,39 @@
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+
+}
+.img-circle {
+  border-radius: 70%;
+}
+
+ header {
+
+   padding-top: 50px;
+   padding-bottom: 50px;
+   color: #f8f8f8;
+   background: url(https://www.fortunebuilders.com/wp-content/uploads/2016/10/Providence-real-estate-market-1024x683.jpg) no-repeat center center;
+   background-size: cover;
+
+}
+
 body {
-      text-align: center;
-      background: url("http://www.fortunebuilders.com/wp-content/uploads/2016/10/Providence-real-estate-market-1024x683.jpg");
-      background-size: cover;
-      background-position: center;
-      color: white;
-      font-family: helvetica;
-    }
-    p {
-      font-size: 22px;
-    }
-    input {
-      border: 0;
-      padding: 10px;
-      font-size: 18px;
-    }
-    input[type="submit"] {
-      background: red;
-      color: white;
-    }
-    .img-circle {
-    border-radius: 50%;
-    }
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Merriweather', serif;
+  font-weight: normal;
+  text-align: center;
+  src: url('myfont-webfont.woff2') format('woff2'),
+    url('myfont-webfont.woff') format('woff');
+}
+
+aside {
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #f8f8f8;
+  background: url(http://i.imgur.com/54rbWBo.jpg) no-repeat center center;
+  background-size: cover;
+  text-align: left;
+
+}
